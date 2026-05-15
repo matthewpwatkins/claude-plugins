@@ -18,7 +18,7 @@ A [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin that **proac
 
 ```
 /plugin marketplace add https://github.com/matthewpwatkins/claude-plugins
-/plugin install auto-pause@claude-plugins
+/plugin install auto-pause@matthewpwatkins-plugins
 ```
 
 Start a new session. You'll see a `[auto-pause]` system message reporting current budget + arm state.

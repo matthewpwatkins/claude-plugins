@@ -13,8 +13,8 @@ In any Claude Code session:
 
 ```
 /plugin marketplace add https://github.com/matthewpwatkins/claude-plugins
-/plugin install auto-pause@claude-plugins
-/plugin install session-wall@claude-plugins
+/plugin install auto-pause@matthewpwatkins-plugins
+/plugin install session-wall@matthewpwatkins-plugins
 ```
 
 For local development, point at the working copy instead:
