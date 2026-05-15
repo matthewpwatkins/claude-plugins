@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "autoArm": true,
+  "pauseThresholdPct": 95,
+  "warnThresholdPct": 80,
+  "bufferSeconds": 60,
+  "cacheSeconds": 30,
+  "tokenLimit": "max",
+  "ccusageCommand": "auto",
+  "statusline": {
+    "format": "compact",
+    "showResetTime": true,
+    "warnColor": "yellow",
+    "pauseColor": "red"
+  }
+}

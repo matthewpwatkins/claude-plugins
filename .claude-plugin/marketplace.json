@@ -1,0 +1,25 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "Matthew Watkins"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins: session coordination, budget-aware auto-pause"
+  },
+  "plugins": [
+    {
+      "name": "session-wall",
+      "version": "0.1.0",
+      "source": "./session-wall",
+      "description": "Coordinate parallel Claude Code sessions via per-session bulletin files",
+      "category": "coordination"
+    },
+    {
+      "name": "auto-pause",
+      "version": "0.1.0",
+      "source": "./auto-pause",
+      "description": "Proactively pause a session before the 5-hour subscription window resets, so long autonomous runs survive without losing work",
+      "category": "reliability"
+    }
+  ]
+}

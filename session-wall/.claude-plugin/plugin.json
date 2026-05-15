@@ -1,0 +1,10 @@
+{
+  "name": "session-wall",
+  "version": "0.1.0",
+  "description": "Coordinate parallel Claude Code sessions via per-session bulletin files. Each session declares what it's about to do; sessions check the wall before long modification tasks and pause to ask the user when scopes overlap.",
+  "author": {
+    "name": "Matthew Watkins"
+  },
+  "keywords": ["coordination", "parallel-sessions", "worktrees", "hooks"],
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "startup|resume|clear",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/session-start.sh\"",
+          "timeout": 30
+        }
+      ]
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "Bash|Edit|Write|NotebookEdit|Read|Task|Agent|Grep|Glob",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/pre-tool-use.sh\"",
+          "timeout": 21600
+        }
+      ]
+    }
+  ]
+}

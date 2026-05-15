@@ -1,0 +1,11 @@
+{
+  "name": "auto-pause",
+  "version": "0.1.0",
+  "description": "Proactively pause a Claude Code session before the 5-hour subscription window resets, so long autonomous runs survive without losing work",
+  "author": {
+    "name": "Matthew Watkins"
+  },
+  "keywords": ["rate-limit", "reliability", "session", "autonomous"],
+  "license": "MIT",
+  "repository": "https://github.com/matthewpwatkins/claude-plugins"
+}
